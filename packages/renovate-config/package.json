@@ -1,0 +1,16 @@
+{
+  "name": "@zotero-chinese/renovate-config",
+  "version": "1.0.0",
+  "author": "northword",
+  "license": "MIT",
+  "packageManager": "pnpm@10.9.0",
+  "scripts": {
+    "test": "renovate-config-validator ./default.json"
+  },
+  "files": [
+    "default.json"
+  ],
+  "dependencies": {
+    "renovate": "^38.72.0"
+  }
+}

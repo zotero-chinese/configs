@@ -1,0 +1,29 @@
+{
+  "name": "@zotero-chinese/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier config for @zotero-chinese",
+  "type": "module",
+  "license": "MIT",
+  "author": "northword",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "tsdown --watch",
+    "build": "tsdown"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  },
+  "prettier": "./dist/index.js",
+  "dependencies": {
+    "prettier-plugin-autocorrect": "^0.4.2"
+  }
+}
