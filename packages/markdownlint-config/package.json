@@ -13,6 +13,10 @@
     "build": "tsdown",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "keywords": [],
   "author": "northword",
   "license": "AGPL-3.0-only",
