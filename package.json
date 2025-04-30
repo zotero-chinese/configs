@@ -5,6 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "pnpm -r --filter=./packages/* --parallel run dev",
+    "build": "pnpm -r --filter=./packages/* --parallel run build",
+    "release": "bumpp -r --commit \"chore(release): publish v%s\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +19,7 @@
     "docs"
   ],
   "devDependencies": {
+    "bumpp": "^10.1.0",
     "tsdown": "^0.10.2"
   },
   "dependencies": {
