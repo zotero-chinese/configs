@@ -4,6 +4,14 @@
   "author": "northword",
   "license": "MIT",
   "packageManager": "pnpm@10.9.0",
+  "homepage": "https://github.com/zotero-chinese/config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zotero-chinese/config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zotero-chinese/config/issues"
+  },
   "scripts": {
     "test": "renovate-config-validator ./default.json"
   },
