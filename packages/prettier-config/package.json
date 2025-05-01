@@ -1,6 +1,6 @@
 {
   "name": "@zotero-chinese/prettier-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Prettier config for @zotero-chinese",
   "type": "module",
   "license": "MIT",
