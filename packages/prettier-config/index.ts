@@ -1,10 +1,10 @@
 import path from "node:path";
 import type { Config } from "prettier";
 
-const __dirname = import.meta.dirname;
-const prettierPluginAutocorrect = path.resolve(
-  `${__dirname}/../node_modules/prettier-plugin-autocorrect/lib/index.js`,
-);
+// const __dirname = import.meta.dirname;
+// const prettierPluginAutocorrect = path.resolve(
+//   `${__dirname}/../node_modules/prettier-plugin-autocorrect/lib/index.js`,
+// );
 
 export default {
   tabWidth: 2,
@@ -24,5 +24,5 @@ export default {
     //   options: {},
     // },
   ],
-  plugins: [prettierPluginAutocorrect],
+  // plugins: [prettierPluginAutocorrect],
 } satisfies Config;
