@@ -1,6 +1,6 @@
 {
   "name": "@zotero-chinese/markdownlint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "Zotero 中文社区 MarkdownLint 和 MarkdownLint Cli2 配置",
   "main": "dist/index.js",
