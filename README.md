@@ -2,18 +2,23 @@
 
 ## Prettier
 
+```bash
+pnpm add -D prettier @zotero-chinese/prettier-config
+```
+
 在 `package.json` 中新建如下字段：
 
 ```json
 {  
-  "devDependencies": {
-    "@zotero-chinese/prettier-config": "^0.1.3"
-  },
   "prettier": "@zotero-chinese/prettier-config"
-  }
+}
 ```
 
 ## MarkdownLint
+
+```bash
+pnpm add -D markdownlint-cli2 @zotero-chinese/markdownlint-config
+```
 
 在 `package.json` 中：
 
@@ -38,6 +43,10 @@ export default markdownlintcli2Config;
 组织不设立 ES Lint 配置预设，请使用 `@antfu/eslint-config` 或 `@sxzz/eslint-config`。
 
 ## AutoCorrect
+
+```bash
+pnpm add -D autocorrect-node
+```
 
 该工具未提供扩展预设的办法，且其 Prettier 插件尚不完善，因此需要手动配置，在 `.autocorrectrc` 中：
 
