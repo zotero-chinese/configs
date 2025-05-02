@@ -1,6 +1,7 @@
 {
   "name": "@zotero-chinese/renovate-config",
   "version": "1.0.3",
+  "private": true,
   "author": "northword",
   "license": "MIT",
   "packageManager": "pnpm@10.9.0",
