@@ -3,14 +3,14 @@ export const searchReplaceConfig = {
     {
       name: "直角引号",
       message: "请使用直角引号「」而不是弯引号",
-      searchPattern: `/\s*“([^“”]+?)”\s*/g`,
+      searchPattern: `/“([^“”]+?)”/g`,
       replace: "「$1」",
       searchScope: "text",
     },
     {
       name: "中括号",
       message: "不使用中括号【】",
-      searchPattern: `/\s*【([^【】]+?)】\s*/g`,
+      searchPattern: `/【([^【】]+?)】/g`,
       replace: "「$1」",
       searchScope: "text",
     },
