@@ -29,10 +29,10 @@
     "build": "tsdown"
   },
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "prettier": "^3.7.4"
   },
   "prettier": "./dist/index.js",
   "dependencies": {
-    "prettier-plugin-autocorrect": "^0.4.2"
+    "prettier-plugin-autocorrect": "^0.4.3"
   }
 }
