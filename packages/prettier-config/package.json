@@ -29,7 +29,7 @@
     "build": "tsdown"
   },
   "devDependencies": {
-    "prettier": "^3.7.4"
+    "prettier": "^3.8.1"
   },
   "prettier": "./dist/index.js",
   "dependencies": {
