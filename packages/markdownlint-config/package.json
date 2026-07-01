@@ -34,7 +34,7 @@
   "packageManager": "pnpm@11.9.0",
   "dependencies": {},
   "devDependencies": {
-    "markdownlint": "^0.40.0",
+    "markdownlint": "^0.41.0",
     "markdownlint-cli2": "^0.22.1",
     "markdownlint-rule-search-replace": "^1.2.0"
   }
