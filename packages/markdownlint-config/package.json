@@ -31,11 +31,11 @@
   "files": [
     "dist"
   ],
-  "packageManager": "pnpm@11.9.0",
+  "packageManager": "pnpm@11.18.0",
   "dependencies": {},
   "devDependencies": {
-    "markdownlint": "^0.41.0",
-    "markdownlint-cli2": "^0.22.1",
+    "markdownlint": "^0.41.1",
+    "markdownlint-cli2": "^0.23.2",
     "markdownlint-rule-search-replace": "^1.2.0"
   }
 }
