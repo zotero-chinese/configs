@@ -19,7 +19,7 @@
     "docs"
   ],
   "devDependencies": {
-    "bumpp": "^11.1.0",
+    "bumpp": "^12.1.1",
     "tsdown": "^0.22.14"
   },
   "dependencies": {
