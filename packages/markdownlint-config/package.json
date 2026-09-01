@@ -31,7 +31,7 @@
   "files": [
     "dist"
   ],
-  "packageManager": "pnpm@11.18.0",
+  "packageManager": "pnpm@11.25.0",
   "dependencies": {},
   "devDependencies": {
     "markdownlint": "^0.41.1",
