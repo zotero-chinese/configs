@@ -13,13 +13,13 @@
   "keywords": [],
   "author": "",
   "license": "AGPL-3.0-only",
-  "packageManager": "pnpm@11.18.0",
+  "packageManager": "pnpm@11.25.0",
   "workspaces": [
     "packages/*",
     "docs"
   ],
   "devDependencies": {
-    "bumpp": "^12.1.1",
+    "bumpp": "^12.2.2",
     "tsdown": "^0.22.14"
   },
   "dependencies": {
